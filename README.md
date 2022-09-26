@@ -14,3 +14,9 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+![<Badge Name>](https://img.shields.io/badge/<Badge Text>-<Background Color>?style=for-the-badge&logo=<Icon Name>&logoColor=<Logo Color>)
+
+
+[![GitHub Streak](https://streak-stats.demolab.com/Inobiddinov=DenverCoder1)](https://git.io/streak-stats)
+
+[![GitHub Streak](https://streak-stats.demolab.com?user=Inobiddinov&theme=tokyonight_duo&border_radius=4.8)](https://git.io/streak-stats)
