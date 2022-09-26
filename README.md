@@ -16,5 +16,4 @@ Here are some ideas to get you started:
 -->
 
 
-[![GitHub Streak](https://streak-stats.demolab.com/Inobiddinov=DenverCoder1)](https://git.io/streak-stats)
 [![GitHub Streak](https://streak-stats.demolab.com?user=Inobiddinov&theme=tokyonight_duo&border_radius=4.8)](https://git.io/streak-stats)
