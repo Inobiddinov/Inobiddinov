@@ -1,12 +1,26 @@
-<!--
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=Inobiddinov&theme=tokyonight_duo&border_radius=4.8)](https://git.io/streak-stats) [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Inobiddinov&show_icons=true&theme=tokyonight)](https://github.com/anuraghazra/github-readme-stats)
+- uses: Platane/snk@v2
+  with:
+    # github user name to read the contribution graph from (**required**)
+    # using action context var `github.repository_owner` or specified user
+    github_user_name: ${{ github.Inobiddinov }}
 
-
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Inobiddinov)](https://github.com/Inobiddinov/github-readme-stats)
-
-![](https://komarev.com/ghpvc/?username=Inobiddinov) */ --->
+    # list of files to generate.
+    # one file per line. Each output can be customized with options as query string.
+    #
+    #  supported options:
+    #  - palette:     A preset of color, one of [github, github-dark, github-light]
+    #  - color_snake: Color of the snake
+    #  - color_dots:  Coma separated list of dots color.
+    #                 The first one is 0 contribution, then it goes from the low contribution to the highest.
+    #                 Exactly 5 colors are expected.
+    outputs: |
+      dist/github-snake.svg
+      dist/github-snake-dark.svg?palette=github-dark
+      dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
+      
+      
+      
 
 
 <h1 align="center">Hi 👋, I'm Muhammad aziz</h1>
@@ -62,22 +76,3 @@
 
 
 
-- uses: Platane/snk@v2
-  with:
-    # github user name to read the contribution graph from (**required**)
-    # using action context var `github.repository_owner` or specified user
-    github_user_name: ${{ github.Inobiddinov }}
-
-    # list of files to generate.
-    # one file per line. Each output can be customized with options as query string.
-    #
-    #  supported options:
-    #  - palette:     A preset of color, one of [github, github-dark, github-light]
-    #  - color_snake: Color of the snake
-    #  - color_dots:  Coma separated list of dots color.
-    #                 The first one is 0 contribution, then it goes from the low contribution to the highest.
-    #                 Exactly 5 colors are expected.
-    outputs: |
-      dist/github-snake.svg
-      dist/github-snake-dark.svg?palette=github-dark
-      dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
